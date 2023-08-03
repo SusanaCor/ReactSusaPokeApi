@@ -1,0 +1,40 @@
+.containerPokemons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: rgb(150, 154, 153);
+}
+
+#img {
+  width: 100px;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+  stroke: #555;
+}
+
+.btn-search {
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-family: inherit;
+  color: #fff;
+  background-color: var(--color-primary);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.logo {
+  margin-left: 400px;
+}
+
+.type1 {
+  border: 1px solid blue;
+}
+
+.App {
+  background-color: aqua;
+}

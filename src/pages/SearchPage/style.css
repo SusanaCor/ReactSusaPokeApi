@@ -1,0 +1,62 @@
+.imgsEvolutions {
+  width: 200px;
+}
+
+.containerEvolutions {
+  display: flex;
+}
+
+.container-stats {
+  margin: 60px;
+  padding: 2rem;
+}
+
+.imgsEvolutions{
+  
+  width: 180px;
+
+}
+.ti{
+font-size: 200px;
+margin-left: -250px;
+margin-bottom: 20px;
+
+}
+.tituEvo{
+
+  text-align: center;
+}
+
+  .containerEvolutions{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(169, 199, 183);
+    text-align: center;
+   
+  }
+  .esta{
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 1028px) {
+    .containerEvolutions{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: rgb(209, 214, 134);
+    }
+    
+  }
+
+  #imgSearch{
+    width: 300px;
+   display: grid;
+   text-align: center;
+  }
+  #Search{
+    width: 200px;
+    display: grid;
+    text-align: center;
+    font-size: larger;
+    color: cadetblue;
+    font-family: cursive;
+  }
